@@ -417,13 +417,13 @@ function showWinner(winnerNumber) {
 	if (winnerNumber == nPlayer1) {
 		scorePlayer1 += 1;
 		scoreboard.rows[1].cells[0].innerHTML = scorePlayer1;
-		winnerMessageBox.innerHTML = "V.good Jan. YOU WIN!";
+		winnerMessageBox.innerHTML = "V.Good Jan. YOU WIN!";
 	} else if (winnerNumber == nPlayer2) {
 		scorePlayer2 += 1;
 		scoreboard.rows[1].cells[1].innerHTML = scorePlayer2;
-		winnerMessageBox.innerHTML = "Sorry i win. Try again Jan.!";
+		winnerMessageBox.innerHTML = "Sorry I win. Try again Jan.!";
 	} else if (winnerNumber == 0) {
-		winnerMessageBox.innerHTML = "It is a DRAW Jan !";
+		winnerMessageBox.innerHTML = " It is a Draw Jan !";
 	}
 	// Show the winner message box and the play again button
 	winnerMessageBox.style.display = 'block';
